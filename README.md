@@ -1,15 +1,11 @@
 Computational Drug Design for Programmed Cell Death Protein 1 as a Potential Drug Treatment
 Faculty Mentor: Dr. Bill Miller
-February 15th, 2020
+
 
 Background:
 The treatment of cancer has had many forms over the past decade, but recently a new target has been discovered that has shown great promise. This target is known as Programmed Cell Death Protein 1 (PD1). Being in the age of personal genomics, it is now possible to test patients through whole-exome sequencing to identify whether the patients have the biomarkers for increased PDL1/PDL2 counts, which can cause the cancer to evade an immune response. This personal genomics strategy to medicine is vital to the future of patient treatment since we shouldn’t have a ‘one size fits all’ strategy for these life-threatening diseases. The treatments that have successfully targeted PD1 have been monoclonal antibody drugs since there hasn’t been a proper target location for small molecule inhibition until now.
 
-Figure 1. (A) T cells (blue) and tumor cells (purple) interacting. (B) A closer view at the membrane level showing an interaction between PD1 (T Cell) and one of its ligands, PDL1 (Tumor Cell). (C) The crystal structure of PD1 bound to PDL1.
-
 PD1 is a type 1 membrane protein that consists of 288 amino acids and has a role in regulating the immune system’s response to the body’s cells by downregulating the immune system and promoting self-tolerance by suppressing T cell inflammatory activity (1).  PD1 does this by binding to one of its two ligands, programmed death-ligand 1 and 2 (PDL1 and PDL2). PDL1 and PDL2 are commonly mutated in tumor cells, amplifying how many copies are on the cell membrane. This means that the cancer cells can evade detection from the immune system by suppressing the T cell inflammatory response through suppressing the TCR signaling pathway (2). 
-
-Figure 2. X-ray crystal structure of the human PD1/PDL2 complex space-filling diagram and ribbon diagram of human PD1 (green) and PDL2 (grey). (B) Ribbon diagram at 180-degree rotation view of A. (C, D, and E) Close-up views of space-filling models of human PD1 bound to PDL2. 
 
 A recent study by Tang et al. found that there is a novel potential binding site on PD1 when bound to PDL2.  While PD1 is in this conformation (Figure 2), it would make a great candidate for small molecule inhibition. If a small molecule inhibitor was designed, this could lead to increases in global access as well as cancer treatment efficacy and safety. This research will build on this recent study and investigate potential small molecule inhibitors to PD1 when bound to PDL2 using computational chemistry techniques. 
 
@@ -19,3 +15,12 @@ This project will start with the initial screening of 6200 small molecules from 
 
 Conclusion:
 	This project aims to identify a small molecule inhibitor explicitly designed for the allosteric site located on PD1 when bound to PDL2. With this inhibitor, it could be possible to successfully inhibit PD1, which would stop tumor cells from evading the immune system. With this small molecule inhibitor designed, we can potentially find a cheaper, more accessible drug to inhibit the PD1 pathway. With cancer being the second leading cause of death in the United States, there is a necessity to develop a small molecule inhibitor for PD1. 
+	
+	
+	
+	References:
+Database, G. (n.d.). PDCD1 Gene (Protein Coding). Retrieved February 14, 2021, from https://www.genecards.org/cgi-bin/carddisp.pl?gene=PDCD1
+Ostrand-Rosenberg, S., Horn, L., & Haile, S. (2014, October 15). The programmed death-1 immune-suppressive pathway: Barrier to antitumor immunity. Retrieved February 14, 2021, from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4185425/
+Tang, S., & Kim, P. S. (2019). A high-affinity human PD-1/PD-L2 complex informs avenues for small-molecule immune Checkpoint drug discovery. PNAS. doi:10.1101/786319
+Zinc15. (n.d.). Retrieved February 14, 2021, from http://zinc.docking.org
+
