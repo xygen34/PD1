@@ -1,6 +1,6 @@
 # Splits sdf into multiple sdf files by number of ligands
 
-f= "pubchem_9" #name of sdf goes here
+f= "pubchem" #name of sdf goes here
 split_number= 1000 # the number of ligands you want to be in each new sdf
 number_of_sdfs = split_number
 i=0
