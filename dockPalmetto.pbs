@@ -1,0 +1,22 @@
+#!/bin/bash
+#PBS -N qvina
+#PBS -o qvina.txt
+#PBS -l select=1:ncpus=20:mem=20gb
+#PBS -q skystd
+#PBS -l walltime=150:00:00
+#PBS -j oe
+
+module load anaconda3/2021.05-gcc/8.3.1
+source activate qvina_env
+
+cd $PBS_O_WORKDIR
+lig=(*.pdbqt)
+for f in ${lig[@]}; do
+    b=`basename $f .pdbqt`
+    echo Processing ligand $b
+    mkdir -p $b
+    qvina2 --config conf.txt --ligand $f --out ${b}/out.pdbqt --log ${b}/log.txt
+done
+
+
+
